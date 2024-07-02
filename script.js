@@ -9,8 +9,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
         const utcTime = `${utcHours}:${utcMinutes}:${utcSeconds} UTC`;
 
-        document.getElementById("currentDay").textContent = `Day: ${utcDay}`;
-        document.getElementById("currentTime").textContent = `Time: ${utcTime}`;
+        document.getElementById("currentDay").textContent = ` ${utcDay}`;
+        document.getElementById("currentTime").textContent = ` ${utcTime}`;
     }
 
     updateTime();

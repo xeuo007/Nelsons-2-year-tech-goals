@@ -1,16 +1,16 @@
  
 * {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-image: linear-gradient(rgba(65, 65, 70, 0.65),rgba(43, 43, 44, 0.65)),url(IMG_4738.JPG);
+    background-image:url(IMG_4738.JPG);
     background-size: cover;
-    color: #fffc;
+    color: rgb(255, 255, 255);
+
 }
 .currenttimeUTC{
     font-size: 60px;
     text-align: center;
     margin-top: 50px;
+    border-radius: 20px;
 
 }
 
@@ -21,14 +21,17 @@ body {
 }
 
 header {
-    background-color: #333;
     color: #fff;
-    text-align:left;
-    padding: 1rem;
+    text-align:center;
     text-transform: uppercase;
-    font-size: 50px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    border-radius: 10px;
+    font-size: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    font-weight: 50px;
+    border: none;
+    width: 95%;
+    align-items: center;
+
 
 
 }
@@ -47,40 +50,40 @@ main {
 .intro-section {
     display: inline-block;
     font-size: x-large;
-    border:0
+    border-radius: 20px;
 
 }
 .goals{
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family:Arial, sans-serif;
+    font-size: 20px; 
+    border-radius: 20px;
 }
 .intro {
-    padding: 10px;
     display: inline-block;
     width: 500px;
     text-align: center;
     align-items: center;
     height: 100%;
-    margin: 10px;
     vertical-align: middle;
+    border-radius: 20px;
 }
-.image{
-    border-radius: 5px;
-}
+
+
 main{
     width: 100%;
 }
 .profile {
-    margin-bottom: 2rem;
-    padding: 1px;
-    font-size: x-large;
+    font-size: 25px;
     border-radius: 4px;
+    display: inline-block;
 }
 h1 {
-    font-size: xx-large;
+    font-size: 50px;
     text-align: center;
-    height: 300px;
     align-items: center;
+    border-radius: 4px;
     
 }
 .profile-details p {
@@ -88,8 +91,10 @@ h1 {
     justify-content: space-around;
     align-items: center;
     border-radius: 20px;
-    margin: 5px;
-    border-radius: 9px;
+    
+}
+.text{
+    border-radius: 20px;
 }
 
 .links ul {
