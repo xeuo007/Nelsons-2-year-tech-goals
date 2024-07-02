@@ -1,0 +1,112 @@
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(rgba(65, 65, 70, 0.65),rgba(43, 43, 44, 0.65)),url(IMG_4738.JPG);
+    background-size: cover;
+    color: #fffc;
+}
+.currenttimeUTC{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f08e;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align:left;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 10px;
+
+
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+main {
+    height: fit-content;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 2rem;
+}
+.intro-section {
+    display: inline-block;
+    font-size: x-large;
+    border:0
+
+}
+.goals{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.intro {
+    padding: 10px;
+    display: inline-block;
+    width: 500px;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+    margin: 10px;
+    vertical-align: middle;
+}
+.image{
+    border-radius: 5px;
+}
+main{
+    width: 100%;
+}
+.profile {
+    margin-bottom: 2rem;
+    padding: 1px;
+    font-size: x-large;
+    border-radius: 4px;
+}
+h1 {
+    font-size: xx-large;
+    text-align: center;
+    height: 300px;
+    align-items: center;
+    
+}
+.profile-details p {
+    display: inline-block;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    margin: 5px;
+    border-radius: 9px;
+}
+
+.links ul {
+    list-style-type: lower-greek;
+    padding: 0;
+    color: aliceblue;
+}
+
+.links ul li {
+    margin-bottom: 0.5rem;
+}
+
+.links a {
+    color: white
+    ;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
